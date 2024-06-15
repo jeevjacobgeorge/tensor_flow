@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification with TensorFlow.js</title>
+    <!-- TensorFlow.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Add Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Link to custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero-container">
+        <div class = "container">
+            <h2>Image Classification with TensorFlow</h2>
+            <div id="dropContainer" class="drop-container">
+                <input type="file" id="imageUpload" accept="image/*" class="file-input">
+                <img id="uploadedImage" src="#" alt="Uploaded Image">
+                <p>Drag and drop your image here</p>
+            </div>
+        </div>
+        <!-- <div id="result">RESULT</div> -->
+        <div class="container" >
+            <canvas id="canvas" ></canvas>
+        </div>
+
+    </div>
+
+    <!-- Script file for TensorFlow.js operations -->
+    <script src="script.js"></script>
+
+
+</body>
+</html>
