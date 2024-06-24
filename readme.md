@@ -1,6 +1,4 @@
-Certainly! Here's an updated README file for your project:
 
----
 
 # Image Classification with Drag-and-Drop using TensorFlow.js
 
